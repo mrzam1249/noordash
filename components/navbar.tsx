@@ -20,11 +20,11 @@ export function Navbar() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <a href="#" className="flex items-center gap-3" aria-label="NoorDash Home">
           <Image 
-            src="/images/logo.png" 
+            src="/images/logo.svg" 
             alt="NoorDash" 
-            width={56} 
-            height={56}
-            className="h-14 w-auto"
+            width={48} 
+            height={48}
+            className="h-12 w-auto"
             priority
           />
         </a>
