@@ -22,9 +22,9 @@ export function Navbar() {
           <Image 
             src="/images/logo.png" 
             alt="NoorDash" 
-            width={40} 
-            height={40}
-            className="h-10 w-auto"
+            width={48} 
+            height={48}
+            className="h-12 w-auto"
             priority
           />
         </a>
