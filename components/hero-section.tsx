@@ -36,13 +36,13 @@ export function HeroSection() {
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button asChild size="lg" className="h-14 gap-3 rounded-full bg-primary px-16 text-lg font-semibold text-primary-foreground shadow-lg hover:bg-noor-teal-dark">
               <a href="#download">
-                <AppleIcon className="h-9 w-9" />
+                <AppleIcon className="size-9" />
                 Download on iOS
               </a>
             </Button>
             <Button asChild size="lg" variant="outline" className="h-14 gap-3 rounded-full border-border px-16 text-lg font-semibold text-foreground hover:bg-secondary">
               <a href="#download">
-                <PlayStoreIcon className="h-9 w-9" />
+                <PlayStoreIcon className="size-9" />
                 Get it on Android
               </a>
             </Button>
