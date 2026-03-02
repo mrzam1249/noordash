@@ -6,7 +6,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
-  title: 'NoorDash — Quran Memorization Your Kids Ask For',
+  title: 'Noordash - Quran Memo for Kids',
   description:
     'NoorDash makes Quran memorization joyful and structured through in-app rewards and parent-approved progress. Designed for Muslim families in the West with children aged 5-12.',
   keywords: [
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'NoorDash',
   ],
   openGraph: {
-    title: 'NoorDash — Quran Memorization Your Kids Ask For',
+    title: 'Noordash - Quran Memo for Kids',
     description:
       'Make Quran memorization something they ask for. Joyful, structured, parent-approved.',
     type: 'website',
