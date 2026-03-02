@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import Image from "next/image"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
@@ -18,10 +19,13 @@ export function Navbar() {
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/80 backdrop-blur-md">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <a href="#" className="flex items-center gap-2" aria-label="NoorDash Home">
-          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="currentColor" className="text-primary-foreground" />
-            </svg>
+          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
+            <Image 
+              src="/images/icon_logo.svg" 
+              alt="NoorDash logo" 
+              width={32} 
+              height={32}
+            />
           </div>
           <span className="text-xl font-bold tracking-tight text-foreground">NoorDash</span>
         </a>
