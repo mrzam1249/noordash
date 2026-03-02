@@ -18,16 +18,15 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/80 backdrop-blur-md">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <a href="#" className="flex items-center gap-2" aria-label="NoorDash Home">
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
-            <Image 
-              src="/images/icon_logo.svg" 
-              alt="NoorDash logo" 
-              width={32} 
-              height={32}
-            />
-          </div>
-          <span className="text-xl font-bold tracking-tight text-foreground">NoorDash</span>
+        <a href="#" className="flex items-center gap-3" aria-label="NoorDash Home">
+          <Image 
+            src="/images/logo.png" 
+            alt="NoorDash" 
+            width={40} 
+            height={40}
+            className="h-10 w-auto"
+            priority
+          />
         </a>
 
         {/* Desktop nav */}
