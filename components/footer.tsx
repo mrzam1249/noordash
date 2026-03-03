@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export function Footer() {
   return (
     <footer className="border-t border-border bg-background px-6 py-12">
@@ -5,12 +7,13 @@ export function Footer() {
         <div className="flex flex-col items-center gap-8 md:flex-row md:justify-between">
           {/* Brand */}
           <div className="flex items-center gap-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="currentColor" className="text-primary-foreground" />
-              </svg>
-            </div>
-            <span className="text-lg font-bold text-foreground">NoorDash</span>
+            <Image 
+              src="/images/logo.png" 
+              alt="NoorDash" 
+              width={32} 
+              height={32}
+              className="h-8 w-auto"
+            />
           </div>
 
           {/* Links */}
